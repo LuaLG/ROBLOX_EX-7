@@ -7,7 +7,7 @@ this in broad terms means the "compilation" of roblox bytecode instead of the co
 It uses roblox's own bytecode serializer from the leaked source code of the game (all credits representing relations to the bytecode serializer go to the game developers) to take the Lua inputted and convert it to Roblox bytecode, you can from there use Roblox's deserializer (which is on the client) to convert that bytecode to a Roblox proto, and from there feed it to Roblox's Lua VM
 
 This is however sadly non functional due to a change in the serializer that somehow makes the first constant in the proto completely
-ruined. Although fixable, EX-7 would still require the solved encryption of Lua opcodes.
+ruined. Although fixable, EX-7 would still require the solved encryption of certain Lua opcodes.
 
 I mean, although there are a lot of skidded parts in this, it did function pretty well and i've personally shown where the parts that are copied reside.
 
