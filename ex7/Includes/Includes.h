@@ -10,7 +10,6 @@
 #include <WinInet.h>
 #include <TlHelp32.h>
 #include <Psapi.h>
-#include <C:\Users\Erdit\Desktop\Stuff\vmp3\Include\C\VMProtectSDK.h>
 #include <algorithm>
 #include <iterator>
 #include <ios>
